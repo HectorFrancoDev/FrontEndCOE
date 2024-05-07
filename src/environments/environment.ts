@@ -1,4 +1,4 @@
 export const environment = {
-    baseUrl: '',
+    baseUrl: 'https://backendcoe.onrender.com/api/v1',
     production: true
 };
