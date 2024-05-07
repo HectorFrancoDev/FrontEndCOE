@@ -1,0 +1,14 @@
+
+<div action="#" method="post">
+
+  <div class="form-group last mb-4">
+      <label for="text">OTP</label>
+      <input type="number" class="form-control" id="text" maxlength="6"  minlength="6" [(ngModel)]="otp.otpCode" >
+  </div>
+  <button (click)="acceptOTP()" mat-raised-button color="primary"
+      class="btn-block btn-size">Aceptar
+  </button>
+  <button (click)="resendOTP()" mat-raised-button color="primary"
+      class="btn-block btn-size">Reenviar
+  </button>
+</div>
